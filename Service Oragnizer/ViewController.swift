@@ -43,7 +43,7 @@ class ViewController: NSViewController {
     
     func displaySuccess() {
         var oAlert:NSAlert = NSAlert()
-        oAlert.messageText = "Congradulation, You did it!";
+        oAlert.messageText = "Congradulations, You did it!";
         oAlert.informativeText = "All of the services have been organized!";
         oAlert.alertStyle = NSAlertStyle.InformationalAlertStyle;
         oAlert.beginSheetModalForWindow(self.view.window!, completionHandler: nil)

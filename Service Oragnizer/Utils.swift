@@ -10,11 +10,7 @@ import Foundation
 import AppKit
 
 func stateToBool(value: NSCellStateValue) -> Bool {
-    var boolValue = false
-    if value == NSOnState {
-        boolValue = true
-    }
-    return boolValue
+    return value == NSOnState
 }
 
 func uniqueFileName(container:NSURL, desiredName:NSString, ext:NSString, manager:NSFileManager) -> String {
