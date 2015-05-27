@@ -66,4 +66,8 @@ class ViewController: NSViewController {
         displaySuccess()
     }
 
+    @IBAction func viewSource(sender: AnyObject) {
+        var github:NSURL = NSURL(string: "https://github.com/AustinLMayes/ServiceOrganizer")!
+        NSWorkspace.sharedWorkspace().openURL(github)
+    }
 }

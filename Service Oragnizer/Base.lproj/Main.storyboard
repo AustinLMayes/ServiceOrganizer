@@ -167,13 +167,23 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Goodlettsville" id="Qaf-EY-rLA"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zvm-c2-eSs">
-                                <rect key="frame" x="298" y="194" width="325" height="44"/>
+                                <rect key="frame" x="281" y="194" width="325" height="44"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Service Organizer" id="ecr-TD-gow">
                                     <font key="font" size="24" name="BlairMdITCTT-Medium"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9lf-jX-TkB">
+                                <rect key="frame" x="548" y="239" width="117" height="32"/>
+                                <buttonCell key="cell" type="push" title="View Source" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="seg-1r-toO">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="viewSource:" target="XfG-lQ-9wD" id="wpW-2r-kbk"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
