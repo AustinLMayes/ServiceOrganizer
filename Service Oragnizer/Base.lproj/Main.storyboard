@@ -188,8 +188,6 @@
                     </view>
                     <connections>
                         <outlet property="filePath" destination="qSq-KV-BYR" id="Oyg-22-1OG"/>
-                        <outlet property="path" destination="9dQ-sH-TIc" id="Bpd-aw-89Q"/>
-                        <outlet property="pathDisplay" destination="9dQ-sH-TIc" id="ih5-Nm-v8c"/>
                         <outlet property="recursive" destination="xW7-ek-XPC" id="4R7-le-cx9"/>
                         <outlet property="serviceType" destination="O5V-Qp-w22" id="lKS-uv-CoU"/>
                         <outlet property="videoFormat" destination="IBs-Ab-qZe" id="Z5b-c7-bcr"/>
